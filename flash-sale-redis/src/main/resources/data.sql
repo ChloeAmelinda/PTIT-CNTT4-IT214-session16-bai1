@@ -1,0 +1,3 @@
+INSERT INTO products (id, price)
+VALUES ('P001', 100000)
+ON DUPLICATE KEY UPDATE id = id;
